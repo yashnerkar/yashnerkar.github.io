@@ -1,0 +1,139 @@
+body {
+  background-image: url(./about.png);
+}
+
+.arrow-down {
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  border-top: 6px solid #fff;
+}
+.solid-1 {
+  color: #e99287 !important;
+}
+.arrow {
+  color: #607b96;
+}
+.solid-2 {
+  color: #43d9ad !important;
+}
+.solid-3 {
+  color: #3a49a4 !important;
+}
+.solid-4 {
+  color: #607b96;
+  font-size: 1.2rem;
+}
+.email {
+  font-size: 0.85rem;
+  color: #607b96;
+}
+.container-text {
+  color: #607b96;
+}
+.about-border {
+  border: 1px solid #1e2d3d;
+  border-spacing: initial;
+}
+.fa-xmark {
+  color: #fff;
+}
+@media only screen and (min-width: 992px) {
+  .personal-text {
+    font-size: 1rem;
+  }
+  .about-div {
+    height: 87.5vh;
+  }
+  .personal-info-text {
+    font-size: 1rem;
+  }
+  .paracontent {
+    margin-top: 2rem;
+  }
+  .biodiv {
+    margin-top: 4rem;
+  }
+}
+@media only screen and (max-width: 992px) {
+  .personal-text {
+    font-size: 1rem;
+  }
+  .aboutme-img {
+    display: none;
+  }
+  .aboutdesc-div {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-y: scroll !important;
+  }
+
+  .personal-info-text {
+    font-size: 1rem;
+  }
+  .personal-div {
+    margin: 0;
+    /* width: 100%; */
+  }
+  .about-personal-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .aboutdesc-div {
+    /* margin-top: 5rem; */
+    padding: 0 !important;
+    max-height: 40vh;
+    overflow-y: scroll;
+  }
+  .para {
+    font-size: 0.9rem;
+  }
+  .personal-text {
+    font-size: 0.9rem;
+  }
+  .contact {
+    font-size: 0.9rem;
+  }
+  .personal-info-text {
+    font-size: 1rem;
+  }
+  .tab-div {
+    padding: 0 !important;
+  }
+  .container-text {
+    max-height: 40vh;
+    overflow-y: scroll;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .para {
+    font-size: 0.8rem;
+  }
+  .personal-text {
+    font-size: 0.8rem;
+  }
+  .contact {
+    font-size: 0.8rem;
+  }
+  .personal-info-text {
+    font-size: 0.8rem;
+  }
+  .biodiv {
+    font-size: 0.7rem;
+  }
+  .container-text {
+    padding: 0 !important;
+  }
+}
+@media only screen and (min-width: 600px) {
+}
+@media only screen and (min-width: 1200px) {
+  .personal-text {
+    font-size: 1rem;
+  }
+}
