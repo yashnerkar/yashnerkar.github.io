@@ -12,7 +12,7 @@ import Contact from './contact/Contact';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
 import './css/nav.css'
 const Nav = () => {
-    const [value, setValue] = useState();
+    const [value, setValue] = useState("1");
 
     const handleChange = (event, newValue) => {
         setValue(newValue);
@@ -44,7 +44,6 @@ const Nav = () => {
                             onChange={handleChange}
                             aria-label="wrapped label tabs example"
                         >      <Tab
-                                value="one"
                                 label="yash-nerkar"
                                 wrapped
                                 disabled
@@ -52,13 +51,10 @@ const Nav = () => {
                             />
 
 
-                            <Tab value="two" label="_hello" className="tabcolor">
-                                {/* <Home /> */}
+                            <Tab value="1" label="_hello" className="tabcolor" >
                             </Tab>
-                            <Tab value="three" label="_about-me" className="tabcolor" >
-                                {/* <About /> */}
-                            </Tab>
-                            <Tab value="four" label="_projects" className="tabcolor" />
+                            <Tab value="2" label="_about-me" className="tabcolor" ></Tab>
+                            <Tab value="3" label="_projects" className="tabcolor" />
                             <Box
                                 className="contact-box"
                             >
@@ -67,15 +63,15 @@ const Nav = () => {
                                     onChange={handleChange}
                                     aria-label="wrapped label tabs example"
                                 >
-                                    <Tab value="five" label="_contact-me" className="tabcolor">
+                                    <Tab value="4" label="_contact-me" className="tabcolor">
                                     </Tab>
                                 </Tabs>
                             </Box>
                         </Tabs>
-                        <TabPanel value="two" className="p-0 m-0"><Home /></TabPanel>
-                        <TabPanel value="three" className="p-0"><About /></TabPanel>
-                        <TabPanel value="four" className="p-0"><Project /></TabPanel>
-                        <TabPanel value="five" className="p-0"><Contact /></TabPanel>
+                        <TabPanel value="1" className="p-0 m-0"><Home /></TabPanel>
+                        <TabPanel value="2" className="p-0"><About /></TabPanel>
+                        <TabPanel value="3" className="p-0"><Project /></TabPanel>
+                        <TabPanel value="4" className="p-0"><Contact /></TabPanel>
                     </TabContext>
                 </ThemeProvider>
             </Box >

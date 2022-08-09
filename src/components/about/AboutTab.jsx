@@ -10,8 +10,8 @@ const AboutTab = ({ name, handleClose, handleOpen }) => {
                     <div key={index}
                         onClick={() => handleOpen(item)}
                         className="py-1 px-2 d-flex border border-light tab-div" style={{ height: '5vh', width: "fit-content" }}>
-                        <p className='text-light'>{item}</p>&nbsp;
-                        <i className="fa-solid fa-xmark pt-1"
+                        <p className='text-light tabname'>{item}</p>&nbsp;
+                        <i className="fa-solid fa-xmark  pt-1"
                             onClick={(e) => handleClose(item, e)}
                         ></i>
                     </div>

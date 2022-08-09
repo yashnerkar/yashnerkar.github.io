@@ -5,6 +5,8 @@ const GlobalStyle = createGlobalStyle`
     margin: 0;
     padding: 0;
     background-image: ${(props) => `url(${props.image})`};
+    background-size: cover;
+    background-repeat: repeat;
     font - family: Open - Sans, Helvetica, Sans - Serif;
   }
 `;

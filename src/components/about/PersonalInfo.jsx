@@ -46,9 +46,9 @@ const PersonalInfo = ({ stateChanger, setName }) => {
                     <span className="text-light personal-info-text">bio</span>
                 </div>
                 {state.bio ?
-                    <div className="container project-div px-3 d-flex" style={{ maxHeight: "2rem" }}>
-                        <i className="fa-solid fa-file px-1 pt-2 text-light"></i>&nbsp;
-                        <p className="pt-1 text-light  personal-info-text" onClick={(e) => handleName(e)} >bio</p>
+                    <div className="container project-div px-3 d-flex align-items-center" style={{ maxHeight: "2rem" }}>
+                        <i className="fa-solid fa-file m-0 text-light"></i>&nbsp;
+                        <p className="text-light m-0 personal-info-text" onClick={(e) => handleName(e)} >bio</p>
                     </div> : null}
 
             </div>
@@ -63,9 +63,9 @@ const PersonalInfo = ({ stateChanger, setName }) => {
                     <span className="text-light  personal-info-text">interests</span>
                 </div>
                 {state.interests ?
-                    <div className="container project-div px-3 d-flex" style={{ maxHeight: "2rem" }}>
-                        <i className="fa-solid fa-file px-1 pt-2 text-light"></i>&nbsp;
-                        <p className="pt-1 text-light  personal-info-text" onClick={(e) => handleName(e)}>interests</p>
+                    <div className="container project-div px-3 d-flex align-items-center d-flex" style={{ maxHeight: "2rem" }}>
+                        <i className="fa-solid fa-file m-0  text-light"></i>&nbsp;
+                        <p className="text-light m-0 personal-info-text" onClick={(e) => handleName(e)}>interests</p>
                     </div> : null}
 
             </div>
@@ -80,9 +80,9 @@ const PersonalInfo = ({ stateChanger, setName }) => {
                     <span className="text-light  personal-info-text">education</span>
                 </div>
                 {state.education ?
-                    <div className="container project-div px-3 d-flex" style={{ maxHeight: "2rem" }}>
-                        <i className="fa-solid fa-file px-1 pt-2 text-light"></i>&nbsp;
-                        <p className="pt-1 text-light  personal-info-text" onClick={(e) => handleName(e)} >education</p>
+                    <div className="container project-div px-3 d-flex align-items-center " style={{ maxHeight: "2rem" }}>
+                        <i className="fa-solid fa-file m-0 text-light"></i>&nbsp;
+                        <p className="text-light m-0 personal-info-text" onClick={(e) => handleName(e)} >education</p>
                     </div> : null}
 
             </div>

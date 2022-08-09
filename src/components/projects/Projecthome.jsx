@@ -1,8 +1,9 @@
 import React from 'react'
 import Card from './Card';
+import '../css/project.css'
 const Projecthome = ({ sendData, sendName }) => {
     return (
-        <div><div className="container-fluid project" style={{ height: '80vh', overflowY: 'scroll' }}>
+        <><div className="container-fluid project" style={{ height: '80vh', overflowY: "scroll" }}>
             <div className="row container-fluid mt-5">
                 <p className="text-light">Personal Projects :</p>
                 <div className="col-lg-4 col-12 project-center-container">
@@ -59,7 +60,7 @@ const Projecthome = ({ sendData, sendName }) => {
                 </div>
 
             </div>
-        </div></div>
+        </div ></>
     )
 }
 

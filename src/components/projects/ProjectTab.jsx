@@ -1,5 +1,4 @@
-import { Step } from '@mui/material';
-import React, { useState, useEffect } from 'react'
+import React from 'react';
 import '../css/project.css';
 const ProjectTab = ({ name, handleClose, handleOpen }) => {
     console.log(name)

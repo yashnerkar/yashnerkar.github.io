@@ -1,6 +1,5 @@
 import React, { useState } from 'react'
 import '../css/contact.css';
-import Input from './Input';
 import Global from '../Globalstyles';
 import Contactoggle from './Contactoggle';
 import ContactList from './ContactList';
@@ -31,24 +30,24 @@ const Contact = () => {
                     >
                         {/* contact- info*/}
                         <div
-                            className="container-fluid  about-border d-flex  align-center text-light pt-1"
+                            className="container-fluid  about-border d-flex  align-items-center text-light "
                             style={{ height: '5vh', cursor: "pointer" }}
                             onClick={() => handleOpenContact(openContact)}
                         >
                             {openContact ? <span className="pic arrow-down mt-2"></span> : <span class="pic arrow-right mt-1"></span>}&nbsp;
-                            <p className="contact" >Contacts</p>
+                            <p className="contact m-0" >Contacts</p>
                         </div>
                         {openContact ? <Contactoggle /> : null}
                         {/* second- info*/}
                         <div
-                            className="container-fluid  d-flex about-border align-center text-light pt-1"
+                            className="container-fluid  d-flex about-border align-items-center text-light"
                             onClick={() => handleOpen(open)}
                             style={{
                                 height: '5vh', cursor: 'pointer'
                             }}
                         > {open ? <span className="pic  arrow-down mt-2"></span> : <span class="pic  arrow-right mt-1"></span>}&nbsp;
 
-                            <p>find-me-also-in</p>
+                            <p className="m-0 find">find-me-also-in</p>
                         </div>
                         {open ? <ContactList /> : null}
                     </div>

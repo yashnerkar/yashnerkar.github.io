@@ -23,15 +23,13 @@
   border-radius: 0 !important;
 }
 
-/* @media only screen and (max-width: 1200px) {
-  .contact-box {
-    justify-content: flex-start;
+@media (min-width: 992px) and (max-width: 1400px) {
+  .name-tab {
+    font-size: 1.2rem !important;
+    padding: 0 2rem 0 2.3rem !important;
   }
-} */
-@media only screen and (min-width: 992px) {
 }
-@media only screen and (min-width: 768px) {
-}
+
 @media only screen and (max-width: 600px) {
 }
 @media only screen and (min-width: 600px) {

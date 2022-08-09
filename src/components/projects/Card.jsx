@@ -1,6 +1,6 @@
 import * as React from 'react';
 import Card from '@mui/material/Card';
-import CardActions from '@mui/material/CardActions';
+
 import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Button from '@mui/material/Button';
@@ -19,14 +19,14 @@ export default function MediaCard({ name, description, sendProjectName, getProje
                 alt="green iguana"
             />
             <CardContent className="cardbody">
-                <Typography gutterBottom variant="h5" component="div" className="fira">
+                <Typography gutterBottom variant="h5" component="div" className="fira cardtext">
                     {name}
                 </Typography>
-                <Typography variant="body2" className='text-light fira'>
+                <Typography variant="body2" className='text-light fira cardtext'>
                     {description}
                 </Typography>
                 <div>
-                    <Button className="btn btn-primary mt-3 fira"
+                    <Button className="btn btn-primary mt-3 fira cardtext"
                         onClick={() => {
                             sendProjectName(name)
                             getProjectName(name)

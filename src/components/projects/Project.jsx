@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react'
+import React, { useState } from 'react'
 import '../css/project.css'
 import ProjectDescription from './ProjectDescription'
 import Projecthome from './Projecthome'
@@ -25,8 +25,8 @@ const Project = () => {
         console.log(nameIndex);
         console.log("nameIndex", nameIndex);
         const setFileName = () => {
-            if (details.length == 1) return setName("");
-            if (nameIndex == 0) return setName(details[nameIndex + 1]);
+            if (details.length === 1) return setName("");
+            if (nameIndex === 0) return setName(details[nameIndex + 1]);
             setName(details[nameIndex - 1]);
         }
         setFileName();
@@ -43,20 +43,19 @@ const Project = () => {
             style={{
                 minHeight: '100vh',
                 width: '100vw',
-
             }}
         >
             <Global image="images/about.png"></Global>
             <div className="container-fluid ">
                 <div className="row">
                     <div
-                        className="col-lg-2 col-12 about-border project-main-div p-0"
+                        className="col-lg-2 col-12 about-border  p-0"
                     > <div
-                        className="container-fluid d-flex about-border project-list-div align-center text-light pt-1"
+                        className="container-fluid d-flex about-border project-list-div align-items-center text-light"
                         style={{ height: '5vh', cursor: 'pointer' }}
                         onClick={() => handleOpen(open)}
                     >   {open ? <span className="pic pic-project arrow-down mt-2"></span> : <span class="pic pic-project arrow-right mt-1"></span>}&nbsp;
-                            <p className="projectName">Projects</p>
+                            <p className="m-0 projectName">Projects</p>
                         </div>
                         <div className="project-list p-2">
                             {open ? <Projectlist stateChanger={sendDataToParent} setName={setName} /> : null}

@@ -1,4 +1,4 @@
-import React, { useReducer, useState, useCallback } from 'react'
+import React, { useReducer } from 'react'
 const initialState = { qmate: false, ctf: false, satiate: false, badge: false, tesero: false, alley: false, coseedge: false, amkam: false };
 
 const reducer = (state, action) => {
@@ -66,11 +66,11 @@ const Projectlist = ({ stateChanger, setName }) => {
                 <div onClick={handleQmatePress}>
                     {state.qmate ? <i class="fa-solid fa-angle-down text-light"></i> : <i class="fa-solid fa-angle-right text-light"></i>}&nbsp;
                     <i className="fa-solid solid-3 fa-folder"></i>&nbsp;
-                    <span className="text-light">Qmate</span>
+                    <span className="text-light projectword">Qmate</span>
                 </div>
-                {state.qmate ? <div className="container project-div px-3 d-flex" style={{ maxHeight: "2rem" }}>
-                    <i className="fa-solid fa-file px-1 pt-2 text-light"></i>&nbsp;
-                    <p className="pt-1 text-light" onClick={(e) => handleName(e)}>Qmate</p>
+                {state.qmate ? <div className="container project-div d-flex align-items-center" style={{ maxHeight: "2rem" }}>
+                    <i className="fa-solid fa-file m-0 text-light"></i>&nbsp;
+                    <p className="m-0 text-light projectword" onClick={(e) => handleName(e)}>Qmate</p>
                 </div> : null}
 
             </div>
@@ -80,12 +80,12 @@ const Projectlist = ({ stateChanger, setName }) => {
                 <div onClick={handleCtfPress}>
                     {state.ctf ? <i class="fa-solid fa-angle-down text-light"></i> : <i class="fa-solid fa-angle-right text-light"></i>}&nbsp;
                     <i className="fa-solid solid-3 fa-folder"></i>&nbsp;
-                    <span className="text-light">CTF-DMCE</span>
+                    <span className="text-light projectword">CTF-DMCE</span>
                 </div>
 
-                {state.ctf ? <div className="container project-div px-3 d-flex" style={{ maxHeight: "2rem" }}>
-                    <i className="fa-solid fa-file px-1 pt-2 text-light"></i>&nbsp;
-                    <p className="pt-1 text-light" onClick={(e) => handleName(e)}>CTF-DMCE</p>
+                {state.ctf ? <div className="container project-div d-flex align-items-center" style={{ maxHeight: "2rem" }}>
+                    <i className="fa-solid fa-file m-0 text-light"></i>&nbsp;
+                    <p className="m-0 text-light projectword" onClick={(e) => handleName(e)}>CTF-DMCE</p>
                 </div> : null}
 
             </div>
@@ -95,12 +95,12 @@ const Projectlist = ({ stateChanger, setName }) => {
                 <div onClick={handleSatiatePress}>
                     {state.satiate ? <i class="fa-solid fa-angle-down text-light"></i> : <i class="fa-solid fa-angle-right text-light"></i>}&nbsp;
                     <i className="fa-solid solid-3 fa-folder"></i>&nbsp;
-                    <span className="text-light">Satiate</span>
+                    <span className="text-light projectword">Satiate</span>
                 </div>
 
-                {state.satiate ? <div className="container project-div px-3 d-flex" style={{ maxHeight: "2rem" }}>
-                    <i className="fa-solid fa-file px-1 pt-2 text-light"></i>&nbsp;
-                    <p className="pt-1 text-light" onClick={(e) => handleName(e)}>Satiate</p>
+                {state.satiate ? <div className="container project-div d-flex align-items-center" style={{ maxHeight: "2rem" }}>
+                    <i className="fa-solid fa-file m-0 text-light"></i>&nbsp;
+                    <p className="m-0 text-light projectword" onClick={(e) => handleName(e)}>Satiate</p>
                 </div> : null}
 
             </div>
@@ -110,11 +110,11 @@ const Projectlist = ({ stateChanger, setName }) => {
                 <div onClick={handleBadgePress}>
                     {state.badge ? <i class="fa-solid fa-angle-down text-light"></i> : <i class="fa-solid fa-angle-right text-light"></i>}&nbsp;
                     <i className="fa-solid solid-3 fa-folder"></i>&nbsp;
-                    <span className="text-light">CSI-BADGE</span>
+                    <span className="text-light projectword">CSI-BADGE</span>
                 </div>
-                {state.badge ? <div className="container project-div px-3 d-flex" style={{ maxHeight: "2rem" }}>
-                    <i className="fa-solid fa-file px-1 pt-2 text-light"></i>&nbsp;
-                    <p className="pt-1 text-light" onClick={(e) => handleName(e)}>CSI-BADGE</p>
+                {state.badge ? <div className="container project-div d-flex align-items-center" style={{ maxHeight: "2rem" }}>
+                    <i className="fa-solid fa-file m-0 text-light"></i>&nbsp;
+                    <p className="m-0 text-light projectword" onClick={(e) => handleName(e)}>CSI-BADGE</p>
                 </div> : null}
 
             </div>
@@ -124,11 +124,11 @@ const Projectlist = ({ stateChanger, setName }) => {
                 <div onClick={handleTeseroPress}>
                     {state.tesero ? <i class="fa-solid fa-angle-down text-light"></i> : <i class="fa-solid fa-angle-right text-light"></i>}&nbsp;
                     <i className="fa-solid solid-3 fa-folder"></i>&nbsp;
-                    <span className="text-light">Tesero Heist</span>
+                    <span className="text-light projectword">Tesero Heist</span>
                 </div>
-                {state.tesro ? <div className="container project-div px-3 d-flex" style={{ maxHeight: "2rem" }}>
-                    <i className="fa-solid fa-file px-1 pt-2 text-light"></i>&nbsp;
-                    <p className="pt-1 text-light" onClick={(e) => handleName(e)}>Tesero Heist</p>
+                {state.tesero ? <div className="container project-div d-flex align-items-center" style={{ maxHeight: "2rem" }}>
+                    <i className="fa-solid fa-file m-0 text-light"></i>&nbsp;
+                    <p className="m-0 text-light projectword" onClick={(e) => handleName(e)}>Tesero Heist</p>
                 </div> : null}
 
             </div>
@@ -138,11 +138,11 @@ const Projectlist = ({ stateChanger, setName }) => {
                 <div onClick={handleCoseedgePress}>
                     {state.coseedge ? <i class="fa-solid fa-angle-down text-light"></i> : <i class="fa-solid fa-angle-right text-light"></i>}&nbsp;
                     <i className="fa-solid solid-3 fa-folder"></i>&nbsp;
-                    <span className="text-light">Coseedge</span>
+                    <span className="text-light projectword">Coseedge</span>
                 </div>
-                {state.coseedge ? <div className="container project-div px-3 d-flex" style={{ maxHeight: "2rem" }}>
-                    <i className="fa-solid fa-file px-1 pt-2 text-light"></i>&nbsp;
-                    <p className="pt-1 text-light" onClick={(e) => handleName(e)}>Coseedge</p>
+                {state.coseedge ? <div className="container project-div d-flex align-items-center" style={{ maxHeight: "2rem" }}>
+                    <i className="fa-solid fa-file m-0 text-light"></i>&nbsp;
+                    <p className="m-0 text-light projectword" onClick={(e) => handleName(e)}>Coseedge</p>
                 </div> : null}
 
             </div>
@@ -152,11 +152,11 @@ const Projectlist = ({ stateChanger, setName }) => {
                 <div onClick={handleAlleyPress}>
                     {state.alley ? <i class="fa-solid fa-angle-down text-light"></i> : <i class="fa-solid fa-angle-right text-light"></i>}&nbsp;
                     <i className="fa-solid solid-3 fa-folder"></i>&nbsp;
-                    <span className="text-light">Data-Alley</span>
+                    <span className="text-light projectword">Data-Alley</span>
                 </div>
-                {state.alley ? <div className="container project-div px-3 d-flex" style={{ maxHeight: "2rem" }}>
-                    <i className="fa-solid fa-file px-1 pt-2 text-light"></i>&nbsp;
-                    <p className="pt-1 text-light" onClick={(e) => handleName(e)}>Data-alley</p>
+                {state.alley ? <div className="container project-div d-flex align-items-center" style={{ maxHeight: "2rem" }}>
+                    <i className="fa-solid fa-file m-0 text-light"></i>&nbsp;
+                    <p className="m-0 text-light projectword" onClick={(e) => handleName(e)}>Data-alley</p>
                 </div> : null}
 
             </div>
@@ -167,12 +167,12 @@ const Projectlist = ({ stateChanger, setName }) => {
 
                     {state.amkam ? <i class="fa-solid fa-angle-down text-light"></i> : <i class="fa-solid fa-angle-right text-light"></i>}&nbsp;
                     <i className="fa-solid solid-3 fa-folder"></i>&nbsp;
-                    <span className="text-light">Amkam Tech</span>
+                    <span className="text-light projectword">Amkam Tech</span>
 
                 </div>
-                {state.amkam ? <div className="container project-div px-3 d-flex" style={{ maxHeight: "2rem" }}>
-                    <i className="fa-solid fa-file px-1 pt-2 text-light"></i>&nbsp;
-                    <p className="pt-1 text-light" onClick={(e) => handleName(e)}>Amkam-Tech</p>
+                {state.amkam ? <div className="container project-div d-flex align-items-center" style={{ maxHeight: "2rem" }}>
+                    <i className="fa-solid fa-file m-0 text-light"></i>&nbsp;
+                    <p className="m-0 text-light projectword" onClick={(e) => handleName(e)}>Amkam-Tech</p>
                 </div> : null}
 
             </div>

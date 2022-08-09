@@ -1,5 +1,4 @@
 import React from 'react'
-import Contact from '../css/contact.css';
 const Input = ({ text, size }) => {
 
     return (

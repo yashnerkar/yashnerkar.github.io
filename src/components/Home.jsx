@@ -1,5 +1,4 @@
 import React from 'react'
-import Nav from './Nav'
 import './css/home.css'
 import Footer from './Footer'
 import MediaQuery from 'react-responsive'
@@ -8,7 +7,7 @@ const Home = () => {
   return (
     <div style={{
       minHeight: '100vh',
-      border: '1px solid black',
+      borderTop: '1px solid #1e2d3d',
       width: '100vw',
       display: 'flex',
       flexDirection: 'column',

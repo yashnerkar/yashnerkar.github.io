@@ -1,8 +1,5 @@
 body {
   font-family: 'fira code', monospace;
-  background-image: url('bg2.png');
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
 ::-webkit-scrollbar {
@@ -172,6 +169,62 @@ body {
     }
     100% {
       background-position: 356px;
+    }
+  }
+  .gitmain {
+    font-size: 1.5rem;
+  }
+
+  @keyframes slidein {
+    0% {
+      margin-left: -500px;
+    }
+    20% {
+      margin-left: -500px;
+    }
+    35% {
+      margin-left: 0px;
+    }
+    100% {
+      margin-left: 0px;
+    }
+  }
+
+  @keyframes reveal {
+    0% {
+      opacity: 0;
+      width: 0px;
+    }
+    20% {
+      opacity: 1;
+      width: 0px;
+    }
+    30% {
+      width: 300px;
+    }
+    80% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+      width: 300px;
+    }
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .btn-shine {
+    font-size: 40px;
+  }
+  @keyframes shine {
+    0% {
+      background-position: 0;
+    }
+    60% {
+      background-position: 270px;
+    }
+    100% {
+      background-position: 270px;
     }
   }
   .gitmain {

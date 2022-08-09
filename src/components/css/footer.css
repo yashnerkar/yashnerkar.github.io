@@ -13,3 +13,9 @@
 .footer {
   background-color: #011627;
 }
+
+@media (min-width: 992px) and (max-width: 1200px) {
+  .links {
+    font-size: 0.8rem;
+  }
+}

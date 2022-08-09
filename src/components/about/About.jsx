@@ -24,8 +24,8 @@ const About = () => {
         console.log(nameIndex);
         console.log("nameIndex", nameIndex);
         const setFileName = () => {
-            if (aboutTabs.length == 1) return setName("");
-            if (nameIndex == 0) return setName(aboutTabs[nameIndex + 1]);
+            if (aboutTabs.length === 1) return setName("");
+            if (nameIndex === 0) return setName(aboutTabs[nameIndex + 1]);
             setName(aboutTabs[nameIndex - 1]);
             console.log("nameIndex-1", aboutTabs[nameIndex - 1])
 
@@ -48,24 +48,23 @@ const About = () => {
         <div style={{
             minHeight: '100vh',
             width: '100vw',
-            // overflowY: 'scroll',
+
         }}>
             <Global image="images/about.png"></Global>
             <div
-                className="container-fluid"
+                className="container-fluid aboutmain"
             >
                 <div className="row">
                     <div
                         className="col-lg-2 col-12 about-border about-div p-0"
-                    // style={{ height: '87.5vh' }}
                     >
                         <div
-                            className="container-fluid d-flex about-border align-center text-light pt-1"
+                            className="container-fluid d-flex about-border align-items-center text-light pt-1"
                             style={{ height: '5vh', cursor: 'pointer' }}
                             onClick={() => handleOpen(open)}
                         >
-                            {open ? <span className="pic arrow-down mt-2"></span> : <span class="pic arrow-right mt-1"></span>}&nbsp;
-                            <p className="personal-text">personal-info</p>
+                            {open ? <span className="pic arrow-down icons mt-2"></span> : <span class="pic icons arrow-right mt-1"></span>}&nbsp;
+                            <p className="personal-text m-0">personal-info</p>
                         </div>
 
                         {open ? <PersonalInfo stateChanger={setTabsAbout} setName={setName} /> : null}
@@ -73,12 +72,12 @@ const About = () => {
                         {/* personal- info complete */}
                         {/* contact-info */}
                         <div
-                            className="container-fluid  about-border d-flex  align-center text-light pt-1"
+                            className="container-fluid  about-border d-flex  align-items-center text-light pt-1"
                             style={{ height: '5vh', cursor: "pointer" }}
                             onClick={() => handleOpenContact(openContact)}
                         >
-                            {openContact ? <span className="pic arrow-down mt-2"></span> : <span class="pic arrow-right mt-1"></span>}&nbsp;
-                            <p className="contact" >Contacts</p>
+                            {openContact ? <span className="pic icons arrow-down mt-2"></span> : <span class="icons pic arrow-right mt-1"></span>}&nbsp;
+                            <p className="contact m-0" >Contacts</p>
                         </div>
                         {openContact ? <Contactoggle /> : null}
                     </div>
@@ -93,7 +92,9 @@ const About = () => {
                         >
                             {<AboutTab name={aboutTabs} handleOpen={openFile} handleClose={closeFile} />}
                         </div>
-                        {aboutTabs.length > 0 ? < AboutDescription name={name} /> : <AboutHome />}
+                        <div className=" d-flex justify-content-center align-items-center container-fluid center-about">
+                            {aboutTabs.length > 0 ? < AboutDescription name={name} /> : <AboutHome />}
+                        </div>
 
                     </div>
                 </div>

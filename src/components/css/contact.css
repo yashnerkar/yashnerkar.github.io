@@ -102,6 +102,29 @@ textarea:focus {
 .contact-border {
   border-top: 1px solid #1e2d3d;
 }
+@media (min-width: 992px) and (max-width: 1300px) {
+  .contact-image {
+    display: none;
+  }
+  .contact-form {
+    margin-top: 0 !important;
+    padding-top: 0 !important;
+    max-height: 70vh;
+    overflow-y: auto;
+  }
+  .find {
+    font-size: 0.7rem;
+  }
+  .info-text {
+    font-size: 0.7rem;
+  }
+}
+
+@media (min-width: 1300px) and (max-width: 1400px) {
+  .find {
+    font-size: 0.8rem;
+  }
+}
 @media only screen and (min-width: 992px) {
   .contact-main-div {
     min-height: 87.5vh;
@@ -115,6 +138,9 @@ textarea:focus {
     display: none;
   }
   .remove-pad {
+    padding: 0 !important;
+  }
+  .contact-container {
     padding: 0 !important;
   }
   .contact-form {
