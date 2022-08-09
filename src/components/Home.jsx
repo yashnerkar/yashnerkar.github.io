@@ -18,7 +18,7 @@ const Home = () => {
     }}>
       <Global image="images/bg2.png"></Global>
       <div className="container text-center  position-relative">
-        <p className="intro-line">Hi all, I am</p>
+        <p className="intro-line">Hi, I am</p>
         <p className=" btn-shine">Yash Nerkar</p>
         <div className='gitmain'>
           <div className="git">></div>
