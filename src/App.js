@@ -26,23 +26,26 @@ function App() {
       width: '100vw',
       overflow: 'hidden'
     }}>
-      {loading ? <Loading /> : <Router>
-        <MediaQuery maxWidth={992}>
-          <ResponsiveNav />
-        </MediaQuery>
-        <MediaQuery minWidth={993}>
-          <Navbar />
-        </MediaQuery>
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/projects" element={<Project />} />
-          <Route path="/contact" element={<Contact />} />
-        </Routes>
-        <MediaQuery minWidth={992}>
-          <Footer />
-        </MediaQuery>
-      </Router>
+      {loading ? <Loading /> :
+        <>
+          <Router>
+            <MediaQuery maxWidth={992}>
+              <ResponsiveNav />
+            </MediaQuery>
+            <MediaQuery minWidth={993}>
+              <Navbar />
+            </MediaQuery>
+            <Routes>
+              <Route path="/" element={<Home />} />
+              <Route path="/about" element={<About />} />
+              <Route path="/projects" element={<Project />} />
+              <Route path="/contact" element={<Contact />} />
+            </Routes>
+            <MediaQuery minWidth={992}>
+              <Footer />
+            </MediaQuery>
+          </Router>
+        </>
       }
 
 

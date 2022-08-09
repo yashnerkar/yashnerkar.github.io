@@ -23,7 +23,7 @@ const ContactList = () => {
                 </div>
                 <div className="container-fluid p-2 removePad">
                     <i class="fa-brands fa-github"></i>
-                    <span><a href="https://github.com/yash-png" className='info-text'>&nbsp;yash-png</a></span>
+                    <span><a href="https://github.com/yashnerkar" className='info-text'>&nbsp;yashnerkar</a></span>
                 </div>
             </div>
         </div>

@@ -5,7 +5,7 @@ const Amkam = () => {
         <div>
             <ol type="1">
                 <li><span className='constant'>const</span> <span className="constantName">projectName</span> = <span className='text'>"Coseedge"</span></li>
-                <li><span className='constant'>const</span> <span className="constantName">projectLink</span> =  <a href="" className="text-link">"https://Coseedge.com/"</a></li>
+                <li><span className='constant'>const</span> <span className="constantName">projectLink</span> =  <a href="https://cosedge.com/" className="text-link">"https://cosedge.com/"</a></li>
                 <li></li>
                 <li><span className='constant'>const</span> <span className="constantName">techStack</span> = &#123;</li>
                 <li>&nbsp;&nbsp;<span className="constantName">frontEnd</span>:<span className='text'>"React.js,Bootstrap"</span>,</li>

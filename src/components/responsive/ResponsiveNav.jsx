@@ -1,5 +1,6 @@
 import React from 'react'
 import '../css/nav.css'
+
 export const ResponsiveNav = () => {
     return (
         <div>
@@ -10,7 +11,7 @@ export const ResponsiveNav = () => {
                         <span className="navbar-toggler-icon" />
                     </button>
                     <div className="collapse navbar-collapse " id="navbarNav">
-                        <ul className="navbar-nav">
+                        <ul className="navbar-nav" id="navigation">
                             <li className="nav-item">
                                 <a className="nav-link nav-text" aria-current="page" href="/">_hello</a>
                             </li>

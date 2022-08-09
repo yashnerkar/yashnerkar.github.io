@@ -8,18 +8,17 @@ const AboutHome = () => {
                     <ol type="1">
                         <li>/**</li>
                         <li>&nbsp; About me</li>
-                        <li>&nbsp; I am Yash Nerkar</li>
+                        <li>&nbsp; Yash Nerkar here!</li>
                         <li>&nbsp; Currently in final year of computer engineering at</li>
                         <li>&nbsp; DMCE,Airoli. I like to develop some projects</li>
-                        <li>&nbsp; as well as open source contribution</li>
-                        <li>&nbsp; I also did some freelancing projects.</li>
-                        <li>&nbsp; Moreover,I was in the CSI-CATT-DMCE committee, </li>
-                        <li>&nbsp; as a member of technical team.</li>
-                        <li>&nbsp; Also, I was a part of GDSC-DMCE,</li>
-                        <li>&nbsp; Web development team.</li>
-                        <li>&nbsp; I was also a member of CodeChef-DMCE Chapter.</li>
+                        <li>&nbsp; as well as involvement in open source.</li>
+                        <li>&nbsp; I also worked on some freelancing projects.</li>
+                        <li>&nbsp; Additionally, I am the <b>Technical Head</b> of </li>
+                        <li>&nbsp; CSI-CATT-DMCE committee. Also, I was part of</li>
+                        <li>&nbsp;  Web development team at GDSC-DMCE</li>
+                        <li>&nbsp; Moreover,I also served on the CodeChef-DMCE Chapter.</li>
                         <li>&nbsp; Currently practicing DSA.</li>
-                        <li>&nbsp; And, I want to learn about DevOps.</li>
+                        <li>&nbsp; And, I also want to find out more about DevOps.</li>
                         <li>**/</li>
                     </ol>
                 </div>

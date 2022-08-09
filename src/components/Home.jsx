@@ -28,7 +28,7 @@ const Home = () => {
 
         <div className="container mt-3">
           <p className="comment">//Check out my github profile</p>
-          <p><span className="const">const </span><span className="github">githubLink</span> <span className="text-light"> = </span><a href="https://github.com/yash-png"><span className="github-link ">"https://github.com/yash-png"</span></a></p>
+          <p><span className="const">const </span><span className="github">githubLink</span> <span className="text-light"> = </span><a href="https://github.com/yashnerkar"><span className="github-link ">"https://github.com/yashnerkar"</span></a></p>
         </div>
       </div>
       <MediaQuery minWidth={993}>

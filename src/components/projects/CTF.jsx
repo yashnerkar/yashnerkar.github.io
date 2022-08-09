@@ -5,7 +5,7 @@ const CTF = () => {
         <div>
             <ol type="1">
                 <li><span className='constant'>const</span> <span className="constantName">projectName</span> = <span className='text'>"CTF-DMCE"</span></li>
-                <li><span className='constant'>const</span> <span className="constantName">projectLink</span> =  <a href="" className="text-link">"https://ctf-dmceherokuapp.com"</a></li>
+                <li><span className='constant'>const</span> <span className="constantName">projectLink</span> =  <a href="http://ctf-registration.herokuapp.com/" className="text-link">"CTF-Registration"</a>, <a href="https://ctfchallenge.herokuapp.com/" className="text-link">"CTF"</a></li>
                 <li></li>
                 <li><span className='constant'>const</span> <span className="constantName">techStack</span> = &#123;</li>
                 <li>&nbsp;&nbsp;<span className="constantName">frontEnd</span>:<span className='text'>"React.js,Crypto.js,Bootstrap"</span>,</li>
@@ -24,7 +24,7 @@ const CTF = () => {
                 <li></li>
                 <li><span className='constant'>const</span> <span className="constantName">githubLink</span> = <a href="" className="text-link">"https://github.com/ctf-dmce"</a></li>
             </ol>
-        </div>
+        </div >
     )
 }
 

@@ -33,9 +33,9 @@
   cursor: pointer;
 }
 .cards:hover {
-  -webkit-box-shadow: 0px 0px 44px 9px rgba(82, 65, 176, 0.8);
-  -moz-box-shadow: 0px 0px 44px 9px rgba(82, 65, 176, 0.8);
-  box-shadow: 0px 0px 44px 9px rgba(82, 65, 176, 0.8);
+  -webkit-box-shadow: 0px 0px 15px 1px rgba(82, 65, 176, 0.97);
+  -moz-box-shadow: 0px 0px 15px 1px rgba(82, 65, 176, 0.97);
+  box-shadow: 0px 0px 15px 1px rgba(82, 65, 176, 0.97);
 }
 
 @media (min-width: 992px) and (max-width: 1200px) {

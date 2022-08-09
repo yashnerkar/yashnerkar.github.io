@@ -43,12 +43,12 @@ const Footer = () => {
                     </div>
                     <MediaQuery minWidth={992}>
                         <div className="col-md-6  d-flex justify-content-end align-items-center p-0">
-                            <a href="https://github.com/yash-png" style={{
+                            <a href="https://github.com/yashnerkar" style={{
                                 textDecoration: 'none'
                             }}>
                                 <div className="border border-dark p-2 links tabcolor" style={{ width: "fit-content" }
                                 } >
-                                    @yash-png<span className="mx-1 px-2"><GitHubIcon /></span>
+                                    @yashnerkar<span className="mx-1 px-2"><GitHubIcon /></span>
                                 </div>
                             </a>
                         </div>
