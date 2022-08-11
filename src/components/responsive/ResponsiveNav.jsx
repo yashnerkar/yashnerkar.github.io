@@ -13,16 +13,16 @@ export const ResponsiveNav = () => {
                     <div className="collapse navbar-collapse " id="navbarNav">
                         <ul className="navbar-nav" id="navigation">
                             <li className="nav-item">
-                                <a className="nav-link nav-text" aria-current="page" href="/">_hello</a>
+                                <a className="nav-link nav-text" aria-current="page" href="/#">_hello</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link nav-text" href="/about">_about-me</a>
+                                <a className="nav-link nav-text" href="/#/about">_about-me</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link nav-text" href="/projects">_projects</a>
+                                <a className="nav-link nav-text" href="/#/projects">_projects</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link nav-text" href="/contact">_contact-me</a>
+                                <a className="nav-link nav-text" href="/#/contact">_contact-me</a>
                             </li>
                         </ul>
                     </div>

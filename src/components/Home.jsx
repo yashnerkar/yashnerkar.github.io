@@ -21,7 +21,7 @@ const Home = () => {
         <p className="intro-line">Hi, I am</p>
         <p className=" btn-shine">Yash Nerkar</p>
         <div className='gitmain'>
-          <div className="git">></div>
+          <div className="git"></div>
           <div className="git"><span>Full-Stack-Developer</span></div>
         </div>
 
@@ -31,9 +31,6 @@ const Home = () => {
           <p><span className="const">const </span><span className="github">githubLink</span> <span className="text-light"> = </span><a href="https://github.com/yashnerkar"><span className="github-link ">"https://github.com/yashnerkar"</span></a></p>
         </div>
       </div>
-      <MediaQuery minWidth={993}>
-        <Footer />
-      </MediaQuery>
     </div>
   )
 }

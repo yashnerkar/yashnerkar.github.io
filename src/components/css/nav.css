@@ -16,9 +16,10 @@
   justify-content: flex-end;
   width: 100%;
 }
-.nav-text {
-  color: #607b96;
+.nav-link {
+  color: #607b96 !important;
 }
+
 .navbar {
   border-radius: 0 !important;
 }

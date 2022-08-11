@@ -7,9 +7,9 @@ const AboutHome = () => {
                 <div className="mx-4 px-1 py-4 para d-flex justify-content-center align-items-center">
                     <ol type="1">
                         <li>/**</li>
-                        <li>&nbsp; About me</li>
+                        <li>&nbsp; About me-</li>
                         <li>&nbsp; Yash Nerkar here!</li>
-                        <li>&nbsp; Currently in final year of computer engineering at</li>
+                        <li>&nbsp; Senior at DMCE, Airoli</li>
                         <li>&nbsp; DMCE,Airoli. I like to develop some projects</li>
                         <li>&nbsp; as well as involvement in open source.</li>
                         <li>&nbsp; I also worked on some freelancing projects.</li>
