@@ -26,7 +26,7 @@ const Contact = () => {
             >
                 <div className="row">
                     <div
-                        className="col-lg-2 col-12 about-border contact-main-div p-0"
+                        className="col-lg-2 col-12 about-border p-0"
                     >
                         {/* contact- info*/}
                         <div
