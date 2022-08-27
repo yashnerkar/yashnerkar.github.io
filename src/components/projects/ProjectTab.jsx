@@ -1,7 +1,7 @@
 import React from 'react';
 import '../css/project.css';
 const ProjectTab = ({ name, handleClose, handleOpen }) => {
-    console.log(name)
+
 
     return (
         <div className='container-fluid  d-flex projectTab p-0'>

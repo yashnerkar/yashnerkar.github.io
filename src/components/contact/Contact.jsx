@@ -1,10 +1,13 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import '../css/contact.css';
 import Global from '../Globalstyles';
 import Contactoggle from './Contactoggle';
 import ContactList from './ContactList';
 import ContactHome from './ContactHome';
-const Contact = () => {
+const Contact = ({ setCurrActive }) => {
+    useEffect(() => {
+        setCurrActive('contact');
+    }, [setCurrActive]);
     const [open, setOpen] = useState(false);
     const [openContact, setOpenContact] = useState(false);
     const handleOpenContact = (prevState) => {

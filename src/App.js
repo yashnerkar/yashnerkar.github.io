@@ -17,10 +17,18 @@ import Contact from './components/contact/Contact';
 import Global from './components/Globalstyles';
 import Loading from './components/preloader/Loading';
 function App() {
-  // const [loading, setLoading] = useState(true);
-  // useEffect(() => {
-  //   setTimeout(() => setLoading(false), 3000)
-  // }, [])
+
+  const [loading, setLoading] = useState(true);
+  useEffect(() => {
+    setTimeout(() => {
+      setLoading(false);
+    }, 3000);
+  }, []);
+
+  const [currActive, setCurrActive] = useState(window.location.hash.split('#/')[1]);
+
+  // console.log(currActive);
+
   return (
     <div style={{
       height: '100vh',
@@ -30,28 +38,29 @@ function App() {
       <>
 
 
-
-
         <Router>
-          <MediaQuery maxWidth={992}>
-            <ResponsiveNav />
-          </MediaQuery>
-          <MediaQuery minWidth={993}>
-            <Navbar />
-          </MediaQuery>
-          <Routes>
+          {loading ? <Loading /> :
+            <>
 
-            <Route path="/" element={<Home />} />
-            <Route path="/about" element={<About />} />
-            <Route path="/projects" element={<Project />} />
-            <Route path="/contact" element={<Contact />} />
-          </Routes>
+              <MediaQuery minWidth={993}>
+                <Navbar currActive={currActive} />
+              </MediaQuery>
+              <MediaQuery maxWidth={992}>
+                <ResponsiveNav />
+              </MediaQuery>
+              <Routes>
+
+                <Route path="/" element={<Home setCurrActive={setCurrActive} />} />
+                <Route path="/about" element={<About setCurrActive={setCurrActive} />} />
+                <Route path="/projects" element={<Project setCurrActive={setCurrActive} />} />
+                <Route path="/contact" element={<Contact setCurrActive={setCurrActive} />} />
+              </Routes>
+              <MediaQuery minWidth={992}>
+                <Footer />
+              </MediaQuery>
+            </>
+          }
         </Router>
-
-        <MediaQuery minWidth={992}>
-          <Footer />
-        </MediaQuery>
-
 
       </>
     </div >

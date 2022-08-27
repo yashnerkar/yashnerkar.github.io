@@ -30,13 +30,13 @@ const Projecthome = ({ sendData, sendName }) => {
                 <div className="col-lg-4 col-12 project-center-container">
                     <Card name="CSI-BADGE" description="A digital badge which can be used to showcase student's skills."
 
-                        image={`images/4.png`}
+                        image={`images/5.png`}
                         getProjectName={sendName}
                         sendProjectName={sendData} />
                 </div>
                 <div className="col-lg-4 col-12 project-center-container">
                     <Card name="Tesero Heist" description="A Treasure hunt for Technitude (collge technical event)"
-                        image={`images/5.png`}
+                        image={`images/4.png`}
                         getProjectName={sendName}
                         sendProjectName={sendData} />
                 </div>

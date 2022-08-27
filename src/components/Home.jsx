@@ -1,9 +1,12 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import './css/home.css'
-import Footer from './Footer'
 import MediaQuery from 'react-responsive'
 import Global from './Globalstyles';
-const Home = () => {
+const Home = ({ setCurrActive }) => {
+  useEffect(() => {
+    setCurrActive('home');
+  }, [setCurrActive]);
+
   return (
     <div style={{
       minHeight: '100vh',
@@ -21,7 +24,7 @@ const Home = () => {
         <p className="intro-line">Hi, I am</p>
         <p className=" btn-shine">Yash Nerkar</p>
         <div className='gitmain'>
-          <div className="git"></div>
+          <div className="git">{'>'}</div>
           <div className="git"><span>Full-Stack-Developer</span></div>
         </div>
 

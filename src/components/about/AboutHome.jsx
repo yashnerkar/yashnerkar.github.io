@@ -23,7 +23,7 @@ const AboutHome = () => {
                     </ol>
                 </div>
                 <div className="aboutme-img d-flex justify-content-center align-items-center px-3">
-                    <img src="images/coffee.png" className=" img-fluid about-img mt-2 ml-5" alt="" ></img>
+                    <img src="images/Coffee.png" className=" img-fluid about-img mt-2 ml-5" alt="" ></img>
                 </div>
             </div>
         </div></>

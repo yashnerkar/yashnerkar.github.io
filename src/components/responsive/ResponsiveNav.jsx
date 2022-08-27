@@ -12,16 +12,16 @@ export const ResponsiveNav = () => {
                     </button>
                     <div className="collapse navbar-collapse " id="navbarNav">
                         <ul className="navbar-nav" id="navigation">
-                            <li className="nav-item">
+                            <li className="nav-item border-0" >
                                 <a className="nav-link nav-text" aria-current="page" href="/#">_hello</a>
                             </li>
-                            <li className="nav-item">
+                            <li className="nav-item border-0">
                                 <a className="nav-link nav-text" href="/#/about">_about-me</a>
                             </li>
-                            <li className="nav-item">
+                            <li className="nav-item border-0">
                                 <a className="nav-link nav-text" href="/#/projects">_projects</a>
                             </li>
-                            <li className="nav-item">
+                            <li className="nav-item border-0">
                                 <a className="nav-link nav-text" href="/#/contact">_contact-me</a>
                             </li>
                         </ul>

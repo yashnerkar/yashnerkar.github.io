@@ -1,7 +1,7 @@
 import React from 'react'
 import '../css/about.css';
 const AboutTab = ({ name, handleClose, handleOpen }) => {
-    console.log(name)
+
 
     return (
         <div className='container d-flex p-0'>

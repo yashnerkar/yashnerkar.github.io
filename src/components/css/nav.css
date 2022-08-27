@@ -17,11 +17,15 @@
   width: 100%;
 }
 .nav-link {
-  color: #607b96 !important;
+  color: #fff !important;
 }
 
 .navbar {
   border-radius: 0 !important;
+}
+.nav-item {
+  border: 1px solid #1e2d3d;
+  padding: 4px 10px !important;
 }
 
 @media (min-width: 992px) and (max-width: 1400px) {

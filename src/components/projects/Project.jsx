@@ -1,18 +1,22 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import '../css/project.css'
 import ProjectDescription from './ProjectDescription'
 import Projecthome from './Projecthome'
 import Projectlist from './Projectlist'
 import ProjectTab from './ProjectTab'
 import Global from '../Globalstyles';
-const Project = () => {
+const Project = ({ setCurrActive }) => {
+
+    useEffect(() => {
+        setCurrActive('projects');
+    }, [setCurrActive]);
     const [open, setOpen] = useState(false);
     const [details, setDetails] = useState([])
     const [name, setName] = useState("");
 
 
     const sendDataToParent = (data) => {
-        console.log(data);
+        // console.log(data);
         let index = details.indexOf(data);
         if (index === -1) setDetails((prev) => [...prev, data])
     };
@@ -22,8 +26,8 @@ const Project = () => {
     const closeFile = (fileName, e) => {
         e.stopPropagation();
         let nameIndex = details.indexOf(fileName);
-        console.log(nameIndex);
-        console.log("nameIndex", nameIndex);
+        // console.log(nameIndex);
+        // console.log("nameIndex", nameIndex);
         const setFileName = () => {
             if (details.length === 1) return setName("");
             if (nameIndex === 0) return setName(details[nameIndex + 1]);

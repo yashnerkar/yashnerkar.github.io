@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import Contactoggle from '../contact/Contactoggle'
 import '../css/about.css'
 import Global from '../Globalstyles'
@@ -6,7 +6,11 @@ import PersonalInfo from './PersonalInfo'
 import AboutTab from './AboutTab'
 import AboutHome from './AboutHome'
 import AboutDescription from './AboutDescription'
-const About = () => {
+const About = ({ setCurrActive }) => {
+
+    useEffect(() => {
+        setCurrActive('about');
+    }, [setCurrActive]);
 
     const [aboutTabs, setAbout] = useState([])
     const [name, setName] = useState();
@@ -21,13 +25,13 @@ const About = () => {
     const closeFile = (fileName, e) => {
         e.stopPropagation();
         let nameIndex = aboutTabs.indexOf(fileName);
-        console.log(nameIndex);
-        console.log("nameIndex", nameIndex);
+        // console.log(nameIndex);
+        // console.log("nameIndex", nameIndex);
         const setFileName = () => {
             if (aboutTabs.length === 1) return setName("");
             if (nameIndex === 0) return setName(aboutTabs[nameIndex + 1]);
             setName(aboutTabs[nameIndex - 1]);
-            console.log("nameIndex-1", aboutTabs[nameIndex - 1])
+            // console.log("nameIndex-1", aboutTabs[nameIndex - 1])
 
         }
         setFileName();
@@ -36,7 +40,7 @@ const About = () => {
     }
 
     const setTabsAbout = (data) => {
-        console.log(data);
+        // console.log(data);
         let index = aboutTabs.indexOf(data);
         if (index === -1) setAbout((prev) => [...prev, data])
     };
