@@ -20,7 +20,7 @@ const Qmate = () => {
                 <li><span className='text'>costless service And hence we had deveoloped this web application</span></li>
                 <li><span className='text'>which is free to use."</span></li>
                 <li></li>
-                <li><span className='constant'>const</span> <span className="constantName">githubLink</span> = <a href="" className="text-link">"https://github.com/qmate"</a></li>
+                <li><span className='constant'>const</span> <span className="constantName">githubLink</span> = <a href="https://github.com/yashnerkar/Qmate" className="text-link">"https://github.com/yashnerkar/qmate"</a></li>
             </ol>
         </div>
 

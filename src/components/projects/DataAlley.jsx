@@ -5,7 +5,7 @@ const Amkam = () => {
         <div>
             <ol type="1">
                 <li><span className='constant'>const</span> <span className="constantName">projectName</span> = <span className='text'>"DataAlley"</span></li>
-                <li><span className='constant'>const</span> <span className="constantName">projectLink</span> =  <a href="" className="text-link">"https://dataalley.com/"</a></li>
+                {/* <li><span className='constant'>const</span> <span className="constantName">projectLink</span> =  <a href="" className="text-link">"https://dataalley.com/"</a></li> */}
                 <li></li>
                 <li><span className='constant'>const</span> <span className="constantName">techStack</span> = &#123;</li>
                 <li>&nbsp;&nbsp;<span className="constantName">frontEnd</span>:<span className='text'>"React.js,Bootstrap"</span>,</li>
@@ -20,7 +20,7 @@ const Amkam = () => {
                 <li><span className='text'>UI design wireframes into code.Surely,it had helped me to learn new skills.</span></li>
                 <li></li>
                 <li></li>
-                <li><span className='constant'>const</span> <span className="constantName">githubLink</span> = <a href="" className="text-link">"https://github.com/DataAlley"</a></li>
+                <li><span className='constant'>const</span> <span className="constantName">githubLink</span> = <a href="https://github.com/yashnerkar/data-alley" className="text-link">"https://github.com/yashnerkar/DataAlley"</a></li>
             </ol>
         </div >
     )

@@ -20,7 +20,7 @@ const Amkam = () => {
                 <li><span className='text'>UI design wireframes into code.Surely,it had helped me to learn new skills.</span></li>
                 {/* <li><span className='text'></span></li> */}
                 <li></li>
-                <li><span className='constant'>const</span> <span className="constantName">githubLink</span> = <a href="" className="text-link">"https://github.com/coseedge"</a></li>
+                <li><span className='constant'>const</span> <span className="constantName">githubLink</span> = <a href="https://github.com/yashnerkar/Cosedge-Metaverse" className="text-link">"https://github.com/yashnerkar/coseedge"</a></li>
             </ol>
         </div >
     )

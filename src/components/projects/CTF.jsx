@@ -22,7 +22,7 @@ const CTF = () => {
                 <li></li>
                 <li><span className='text'><a href="https://thehackersmeetup.medium.com/beginners-guide-to-capture-the-flag-ctf-71a1cbd9d27c"><span><i class="fa fa-link" aria-hidden="true"></i></span>Know more about ctf</a></span></li>
                 <li></li>
-                <li><span className='constant'>const</span> <span className="constantName">githubLink</span> = <a href="" className="text-link">"https://github.com/ctf-dmce"</a></li>
+                <li><span className='constant'>const</span> <span className="constantName">githubLink</span> = <a href="https://github.com/yashnerkar/CTF-registerations" className="text-link">"https://github.com/yashnerkar/CTF-registrations"</a>,<a href="https://github.com/yashnerkar/CTF-Challenges-" className="text-link">"https://github.com/yashnerkar/ctfchallenges"</a></li>
             </ol>
         </div >
     )

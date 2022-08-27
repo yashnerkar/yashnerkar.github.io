@@ -21,7 +21,7 @@ const Badge = () => {
                 <li><span className='text'>volunteer work, continuing education, etc. This platform will facilitate user </span></li>
                 <li><span className='text'>to store badges and showcase on the display in sorted manner. </span></li>
                 <li></li>
-                <li><span className='constant'>const</span> <span className="constantName">githubLink</span> = <a href="" className="text-link">"https://github.com/csi-badges"</a></li>            </ol>
+                <li><span className='constant'>const</span> <span className="constantName">githubLink</span> = <a href="https://github.com/yashnerkar/csi_badge" className="text-link">"https://github.com/yashnerkar/csi-badges"</a></li>            </ol>
         </div>
     )
 }

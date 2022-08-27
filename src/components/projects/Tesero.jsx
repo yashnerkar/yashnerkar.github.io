@@ -21,7 +21,7 @@ const CTF = () => {
                 <li></li>
                 <li><span className='text'><a href="https://thehackersmeetup.medium.com/beginners-guide-to-capture-the-flag-ctf-71a1cbd9d27c"><span><i class="fa fa-link" aria-hidden="true"></i></span>Know more about ctf</a></span></li>
                 <li></li>
-                <li><span className='constant'>const</span> <span className="constantName">githubLink</span> = <a href="" className="text-link">"https://github.com/rishimule/tech.treasure.hunt.pages"</a></li>
+                <li><span className='constant'>const</span> <span className="constantName">githubLink</span> = <a href="https://github.com/yashnerkar/Tesero-heist" className="text-link">"https://github.com/yashnerkar/Tesero-Heist"</a></li>
             </ol>
         </div>
     )

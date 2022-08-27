@@ -23,7 +23,7 @@ const Satiate = () => {
                 <li><span className='text'>platform itself.Even if you want to visit that NGO,its location is available  </span></li>
                 <li><span className='text'>on the integrated MAP."</span></li>
                 <li></li>
-                <li><span className='constant'>const</span> <span className="constantName">githubLink</span> = <a href="" className="text-link">"https://github.com/satiate"</a></li>            </ol>
+                <li><span className='constant'>const</span> <span className="constantName">githubLink</span> = <a href="https://github.com/yashnerkar/hackathon-zero-hunger" className="text-link">"https://github.com/yashnerkar/satiate"</a></li>            </ol>
         </div>
     )
 }
