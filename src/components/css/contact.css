@@ -1,0 +1,153 @@
+.fa-instagram {
+  color: transparent;
+  font-size: larger;
+  background: -webkit-radial-gradient(
+    30% 107%,
+    circle,
+    #fdf497 0%,
+    #fdf497 5%,
+    #fd5949 45%,
+    #d6249f 60%,
+    #285aeb 90%
+  );
+  background: -o-radial-gradient(
+    30% 107%,
+    circle,
+    #fdf497 0%,
+    #fdf497 5%,
+    #fd5949 45%,
+    #d6249f 60%,
+    #285aeb 90%
+  );
+  background: radial-gradient(
+    circle at 30% 107%,
+    #fdf497 0%,
+    #fdf497 5%,
+    #fd5949 45%,
+    #d6249f 60%,
+    #285aeb 90%
+  );
+  background: -webkit-radial-gradient(
+    circle at 30% 107%,
+    #fdf497 0%,
+    #fdf497 5%,
+    #fd5949 45%,
+    #d6249f 60%,
+    #285aeb 90%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+
+.fa-discord {
+  color: #7289d9;
+}
+
+.fa-linkedin {
+  color: #0e76a8;
+}
+.fa-twitter {
+  color: #1da1f2;
+}
+.fa-github {
+  color: #fff;
+}
+.info-text {
+  color: #607b96;
+  text-decoration: none;
+}
+.info-text:hover {
+  color: aliceblue;
+  cursor: pointer;
+}
+.form-control {
+  width: 25%;
+  text-overflow: ellipsis;
+  line-break: break-word;
+  background: #011221;
+  border: 1px solid #1e2d3d !important;
+  color: #fff;
+}
+.input-group {
+  /* border: 1px solid #1e2d3d !important; */
+}
+.form-control:focus {
+  background: #011221;
+  color: #fff;
+}
+textarea {
+  background: #011221;
+  color: #fff;
+  resize: none;
+  border: 1px solid #fff;
+  border: 1px solid #1e2d3d !important;
+}
+textarea:focus {
+  border: 1px;
+}
+.glowing {
+  border: 2px solid #dadada;
+  border-radius: 7px;
+}
+.glowing:focus {
+  outline: none;
+  border-color: #9ecaed;
+  box-shadow: 0 0 10px #9ecaed;
+}
+.btn {
+  background: #1c2b3a;
+  border-radius: 8px;
+  color: #fff;
+}
+.contact-border {
+  border-top: 1px solid #1e2d3d;
+}
+.contact-container {
+  height: 100vh;
+}
+@media (min-width: 992px) and (max-width: 1300px) {
+  .contact-image {
+    display: none;
+  }
+
+  .contact-form {
+    margin-top: 0 !important;
+    padding-top: 0 !important;
+    max-height: 70vh;
+    overflow-y: auto;
+  }
+  .find {
+    font-size: 0.7rem;
+  }
+  .info-text {
+    font-size: 0.7rem;
+  }
+}
+
+@media (min-width: 1300px) and (max-width: 1400px) {
+  .find {
+    font-size: 0.8rem;
+  }
+}
+@media only screen and (min-width: 992px) {
+  /* .contact-main-div {
+    height: 87.5vh;
+  } */
+}
+@media only screen and (max-width: 992px) {
+  .project-list {
+    display: none;
+  }
+  .contact-image {
+    display: none;
+  }
+  .remove-pad {
+    padding: 0 !important;
+  }
+  .contact-container {
+    padding: 0 !important;
+  }
+  .contact-form {
+    width: 75% !important;
+  }
+}

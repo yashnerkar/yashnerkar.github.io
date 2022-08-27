@@ -1,0 +1,271 @@
+body {
+  background-image: url(./about.png);
+}
+
+.arrow-down {
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  border-top: 6px solid #fff;
+}
+.solid-1 {
+  color: #e99287 !important;
+}
+.arrow {
+  color: #607b96;
+}
+.solid-2 {
+  color: #43d9ad !important;
+}
+.solid-3 {
+  color: #3a49a4 !important;
+}
+.solid-4 {
+  color: #607b96;
+  font-size: 1.2rem;
+}
+.email {
+  font-size: 0.85rem;
+  color: #607b96;
+}
+.container-text {
+  color: #607b96;
+}
+.about-border {
+  border: 1px solid #1e2d3d;
+  border-spacing: initial;
+}
+.fa-xmark {
+  color: #fff;
+}
+.center-about {
+  margin-top: 2rem;
+  /* padding-top: 2rem; */
+}
+
+@media only screen and (min-width: 992px) {
+  /* .about-div {
+    height: 87.5vh;
+  } */
+  .interestpara {
+    font-size: 1rem;
+    padding: 0 !important;
+  }
+  .center-about {
+    height: 87.5vh;
+    margin: 0;
+  }
+}
+
+@media (min-width: 1300px) and (max-width: 1400px) {
+  .interestpara {
+    font-size: 0.8rem;
+    padding: 0 !important;
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1300px) {
+  /* .about-div {
+    height: 87.5vh;
+  } */
+  .personal-text {
+    font-size: 0.8rem !important;
+  }
+  .contact {
+    font-size: 0.7rem;
+  }
+
+  .para {
+    font-size: 0.8rem;
+  }
+  .interestpara {
+    font-size: 0.8rem;
+    /* padding: 0 !important; */
+  }
+  .about-img {
+    height: 25rem;
+  }
+  .bio-img {
+    height: 25rem;
+  }
+  .edu-img {
+    height: 25rem;
+  }
+  .int-img {
+    height: 15rem;
+  }
+  .interestpara {
+    font-size: 0.8rem;
+  }
+  .email {
+    font-size: 0.7rem;
+  }
+  .personal-info-text {
+    font-size: 0.8rem;
+  }
+  .icons {
+    font-size: 0.6rem !important;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .personal-text {
+    font-size: 0.7rem;
+  }
+  .icons {
+    font-size: 0.8rem !important;
+  }
+  .int-img {
+    height: 12rem;
+  }
+  .about-img {
+    height: 15rem;
+  }
+  .bio-img {
+    height: 15rem;
+  }
+  .edu-img {
+    height: 12rem;
+  }
+  .tab-div {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+  }
+  .contact {
+    font-size: 0.7rem;
+  }
+  .interestpara {
+    font-size: 0.5rem;
+  }
+  .email {
+    font-size: 0.6rem;
+  }
+  .para {
+    font-size: 0.7rem;
+  }
+  .personal-info-text {
+    font-size: 0.7rem;
+  }
+  .biodiv {
+    margin-top: 4rem;
+  }
+}
+@media only screen and (max-width: 992px) {
+  .personal-text {
+    font-size: 1rem;
+  }
+
+  .aboutme-img {
+    display: none !important;
+  }
+  .aboutdesc-div {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-y: scroll;
+  }
+
+  .para {
+    font-size: 0.7rem;
+    padding: 0 !important;
+  }
+  .interestpara {
+    font-size: 0.7rem;
+    padding: 0 !important;
+  }
+  .personal-text {
+    font-size: 0.8rem;
+  }
+  .contact {
+    font-size: 0.8rem;
+  }
+  .personal-info-text {
+    font-size: 1rem;
+  }
+
+  .personal-div {
+    margin: 0;
+  }
+  .about-personal-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .aboutdesc-div {
+    /* margin-top: 5rem; */
+    padding: 0 !important;
+    max-height: 40vh;
+    overflow-y: scroll;
+  }
+  .aboutmaindiv {
+    overflow-y: scroll !important;
+  }
+
+  .para {
+    font-size: 0.6rem;
+  }
+  .interestpara {
+    font-size: 0.6rem;
+  }
+  .personal-text {
+    font-size: 0.9rem;
+  }
+  .contact {
+    font-size: 0.9rem;
+  }
+  .personal-info-text {
+    font-size: 1rem;
+  }
+  .tab-div {
+    padding: 0 !important;
+  }
+  .container-text {
+    max-height: 40vh;
+    overflow-y: scroll;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .para {
+    font-size: 0.6rem;
+    padding: 0 !important;
+  }
+  .interestpara {
+    font-size: 0.6rem;
+    padding: 0 !important;
+  }
+  .interestdiv {
+    padding: 0 !important;
+    max-height: 50vh !important;
+    overflow-y: scroll;
+  }
+  .center-about {
+    margin-top: 1rem;
+  }
+  .container-text {
+    max-height: 40vh;
+  }
+  .personal-text {
+    font-size: 0.8rem;
+  }
+  .contact {
+    font-size: 0.8rem;
+  }
+  .personal-info-text {
+    font-size: 0.8rem;
+  }
+  .biodiv {
+    font-size: 0.7rem;
+  }
+  .container-text {
+    padding: 0 !important;
+  }
+}
+@media only screen and (min-width: 600px) {
+}
+@media only screen and (min-width: 1200px) {
+  .personal-text {
+    font-size: 1rem;
+  }
+}

@@ -1,0 +1,21 @@
+.links {
+  color: #607b96;
+}
+.footerlinks {
+  border: 1px solid #1e2d3d;
+}
+.footerlinks:hover {
+  color: #607b96;
+}
+.footerlinks:focus {
+  color: #607b96;
+}
+.footer {
+  background-color: #011627;
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+  .links {
+    font-size: 0.8rem;
+  }
+}
